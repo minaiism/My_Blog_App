@@ -1,3 +1,24 @@
+div.item {
+  border: none;
+  text-align: justify;
+}
+
+a.ui.floated.inverted.black.button {
+  color: #14604f;
+}
+
+.ui.items>.item>.content>.header:not(.ui) {
+  font-family: 'Playfair Display SC', serif;
+}
+
+label.label {
+  font-family: 'Playfair Display SC', serif;
+}
+
+label {
+  font-family: 'Playfair Display SC', serif;
+}
+
 i.icon {
   /*double the size od the container*/
   font-size: 2em;
@@ -9,4 +30,46 @@ i.icon {
 
 #delete {
   display: inline;
+}
+
+.ui.segment {
+  border: 2px solid #1a3b44;
+}
+
+div.ui.huge.header {
+  margin: 5px;
+  padding: 5px;
+  font-family: 'Playfair Display SC', serif;
+  font-weight: 1000;
+  font-size: 35px;
+  text-align: center;
+}
+
+img.ui.centered.rounded.image {
+  border: 10px solid #1a3b44;
+}
+
+div.content {
+  margin: 10px;
+  padding: 5px;
+}
+
+span {
+  font-family: 'Arapey', serif;
+  font-size: 13px;
+  font-weight: bold;
+}
+
+p {
+  color: #000000;
+  padding-bottom: 5px;
+  margin: 2px;
+  margin-bottom: 5px;
+  font-family: 'Arapey', serif;
+  font-weight: 500;
+  text-align: justify;
+}
+
+a.ui.inverted.blue.button {
+  float: right;
 }
