@@ -5,7 +5,7 @@
   "main": "blog_app.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "nodemon"
+    "start": "node blog_app.js"
   },
   "author": "Martyna Wojcik",
   "license": "ISC",
