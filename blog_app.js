@@ -6,7 +6,9 @@ var express = require("express"),
   expressSanitizer = require("express-sanitizer");
 
 //APP CONFIG
-mongoose.connect("mongodb://localhost/RESTful_Blog_App");
+// mongoose.connect("mongodb://localhost/RESTful_Blog_App");
+mongoose.connect("mongodb://martyna:martyna@ds157057.mlab.com:57057/blog_app");
+//mongodb://martyna:martyna@ds157057.mlab.com:57057/blog_app
 app.use(bodyParser.urlencoded({
   extended: true
 }));
