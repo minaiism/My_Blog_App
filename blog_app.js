@@ -7,7 +7,7 @@ var express = require("express"),
 
 //APP CONFIG
 // mongoose.connect("mongodb://localhost/RESTful_Blog_App");
-mongoose.connect("mongodb://martyna:martyna@ds157057.mlab.com:57057/blog_app");
+mongoose.connect(process.env.MONGO_URI);
 //mongodb://martyna:martyna@ds157057.mlab.com:57057/blog_app
 app.use(bodyParser.urlencoded({
   extended: true
@@ -129,7 +129,7 @@ app.delete("/blogs/:id", function(req, res) {
 });
 
 
-app.listen(8666, process.env.IP, function() {
+app.listen(process.env.PORT, process.env.IP, function() {
   console.log("Server has just started");
 });
 
